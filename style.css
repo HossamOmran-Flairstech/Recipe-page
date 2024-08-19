@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Outfit-VariableFont';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Outfit-Black';
+    src: url('./assets/fonts/outfit/static/Outfit-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Outfit-Bold';
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700 ;
+}
+@font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 700 ;
+}
+@font-face {
+    font-family: 'Outfit-light';
+    src: url('./assets/fonts/outfit/static/Outfit-Light.ttf') format('truetype');
+    font-weight: 700 ;
+}
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+.card img {
+    border: 0;
+    border-radius: 2.3rem !important;
+}
+.rounded {
+    border-radius: 1.5rem !important;
+}
+
+h1 {
+    font-family: 'YoungSerif-Regular';
+}
+.quick-info {
+    font-family: 'Outfit-VariableFont';
+    color:hsl(30, 10%, 34%);
+}
+.prepare-time  {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+.prepare-time h5{
+color: hsl(332, 51%, 32%);
+font-family: 'Outfit-SemiBold';
+
+}
+ li{
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit-VariableFont'; 
+}
+.prepare-time  li::marker {
+        color:hsl(332, 51%, 32%);
+}
+.Ingredients  li::marker {
+    color:hsl(14, 45%, 36%);
+}
+.Instructions  li::marker {
+    color:hsl(14, 45%, 36%);
+    font-family: 'Outfit-SemiBold';
+
+}
+
+h2 {
+    color:hsl(14, 45%, 36%);
+    font-family: 'YoungSerif-Regular';
+}
+hr {
+    margin: 26px 10px;
+}
+table ,
+tr ,
+td {
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit-VariableFont'; 
+}
+.colorized {
+    color:#8B5946;
+}
+ tr:last-child td{
+    border-bottom:0;
+}
+
+@media (max-width:992px) {
+    .card img {
+        border: none;
+        border-radius: unset!important;  
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
